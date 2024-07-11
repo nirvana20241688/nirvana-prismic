@@ -1,0 +1,22 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {
+            "width": 75,
+            "height": 75
+          },
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #002088;
+    --color-secondary: rgb(111 114 185);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-3 px-4 text-white font-normal rounded-md shadow-md bg-primary-800 hover:bg-primary-800;
+    background-color: var(--color-primary);
+  }
+  h1 {
+    @apply text-primary-900;
+  }
+}
